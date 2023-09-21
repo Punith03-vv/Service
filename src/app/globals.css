@@ -1,0 +1,154 @@
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration:none;
+    scroll-behavior:smooth;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  height: 10vh;
+  width: 100%;
+  text-decoration: none;
+  background-color: white;
+}
+.bar{
+  display: none;
+}
+.logo{
+  background-image: url('./Assets/logo.jpg');
+  background-size: cover;
+  margin-left: 1vw;
+  height: 7vh;
+  width: 3.23vw;
+}
+.menu{
+  display: flex;
+}
+.menuitem{
+  margin-right: 20px;
+  color: #081C6B;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+.menuitem:hover{
+  background-color: #DE08EC;
+}
+
+/* Home */
+.home{
+  height: 100vh;
+  width: auto;
+  display: flex;
+}
+.left-side{
+  background-image: url('./Assets/coding_boy.png');
+  background-size: cover;
+  height: 65vh;
+  width:20vw;
+  background-repeat: no-repeat;
+  margin-top: 25vh;
+  margin-left: 9vw;
+  padding-right: 30vw;
+}
+.right-side{
+  color: white;
+  padding-top: 45vh;
+  padding-left: 20vw;
+  padding-right: 8vw;
+  font-size: 1.5rem;
+  word-spacing: 2px;
+  line-height: 6vh;
+}
+.name-effect{
+  color: #DE08EC;
+}
+.name{
+  color: #DE08EC;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.cursor{
+  color: #DE08EC;
+}
+
+/* item */
+.body{
+  background-color: #090c31;
+  height: 400vh;
+  width: 100%;
+}
+.Services{
+  background-color: #F2F3F2;
+  height: 100%;
+  width: 100%;
+  padding-left: 18vw;
+  padding-right: 26vw;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+.control-dots{
+  top: 530px;
+}
+.Services-image-1{
+  padding-left: 9vw;
+  margin-top: 12vh;
+  height: 110vh;
+  width: 110vh;
+}
+.Services-image-2{
+  margin-top: 22vh;
+  padding-left: 8vw;
+  height: 107vh ;
+  width: 107vh;
+  overflow: hidden;
+}
+.Services-image-3{
+  margin-top: 20vh;
+  padding-left: 6vw;
+  height: 110vh;
+  width: 110vh;
+}
+.coming{
+  height: 100%;
+  padding: 40vh 43%;
+}
+
+
+/* Footer */
+.follow{
+  text-align: center;
+  padding-bottom: 2vh;
+}
+.facebook{
+  padding-left: 44.8vw;
+  padding-top: 4vh;
+}
+.instagram{
+  padding-left: 2vw;
+}
+.linkedin{
+  padding-left: 2vw;
+}
+
+/* Students CV */
+
+.students_cv{
+  text-align: center;
+}
+.cv_space{
+  padding: 5vh 5vw;
+  font-size: larger;
+}
+.download{
+  border-bottom: 3px solid red;
+}
